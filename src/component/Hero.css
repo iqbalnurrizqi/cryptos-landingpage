@@ -1,0 +1,57 @@
+.Hero .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 4rem auto;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.Hero .left {
+    padding: 1rem;
+
+}
+
+.Hero h1 {
+    padding: 1rem 0;
+}
+
+.Hero .input-container {
+    padding: 1rem 0;
+}
+
+.Hero .right {
+    padding: 1rem;
+}
+
+.Hero .img-container {
+    width: 100%;
+    display: flex;
+}
+
+.Hero img {
+    max-width: 80%;
+    margin: auto;
+}
+
+@media screen and (max-width: 940px) {
+  .Hero .container {
+    grid-template-columns: 1fr;
+    margin: 1rem 0;
+  }  
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
